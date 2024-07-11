@@ -1,0 +1,81 @@
+* {
+  font-family: Poppins, sans-serif;
+  box-sizing: border-box;
+}
+
+#search {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.card-text audio {
+  width: 250px;
+}
+
+.card {
+  height: 100%;
+}
+
+input {
+  border: 1px solid grey;
+  width: 250px;
+  height: 50px;
+  border-radius: 8px;
+  padding-left: 20px;
+}
+
+input:focus {
+  border: none;
+}
+
+button {
+  height: 50px;
+  width: 90px;
+  margin-bottom: 4px;
+}
+
+.card-img-top {
+  height: 300px;
+}
+
+.cart-button {
+  width: 140px;
+  height: 50px;
+}
+
+.playlist {
+  font-size: 37px;
+  padding-bottom: 19px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-bottom: 1px solid #ddd;
+  align-items: center;
+}
+
+.cart-item-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.remove-btn {
+  background-color: #0cffc2;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+
+.remove-btn:hover {
+  background-color: #12f38a;
+  border-radius: 8px;
+}
